@@ -98,17 +98,24 @@
     </div>
 
     <div class="travel-sylhet">
-      <h2 style="margin-top: 3rem; text-align: center; margin-bottom: 2rem">
+      <h2
+        style="
+          margin-top: 3rem;
+          text-align: center;
+          margin-bottom: 2rem;
+          font-size: 3rem;
+        "
+      >
         Syleht
       </h2>
       <div class="container-travel" style="padding: 0 2rem 2rem 2rem">
         <div class="container-travel-left">
           <h3>Travel to Sylhet</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores
-            iste totam omnis architecto ratione porro, praesentium dignissimos
-            magni. Suscipit quibusdam odit soluta iste. Unde fuga quae, eligendi
-            sed distinctio maiores?
+            Lorem ipsum, <strong>dolor</strong> sit amet consectetur adipisicing
+            elit. Asperiores iste totam omnis <em>architecto</em> ratione porro,
+            praesentium dignissimos magni. Suscipit quibusdam odit soluta iste.
+            Unde fuga quae, eligendi sed distinctio maiores?
           </p>
           <button>Read more</button>
         </div>
@@ -117,6 +124,36 @@
           <img src="image/cox-food-4.jpg" alt="Food 1" />
         </div>
       </div>
+    </div>
+
+    <div class="container-form">
+      <h2 style="margin: 2rem 0; text-align: center; font-size: 3rem">
+        Contact Form
+      </h2>
+      <form action="#" class="contact-form">
+        <label for="fulname">Full Name</label>
+        <input
+          type="text"
+          name="name"
+          id="fulname"
+          placeholder="Your full name"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your Email"
+          required
+        />
+
+        <label for="text">Write text</label>
+        <textarea name="text" id="text" placeholder="your text"></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
